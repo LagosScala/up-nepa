@@ -13,6 +13,6 @@ object AppDependencies {
   private val scalaTest = "org.scalatest" %% "scalatest" % "3.0.1" % Test
 
   val upnepaDependencies: Seq[ModuleID] =  Seq(
-    akka, akkaStream, akkaHttp, akkaHttpJson, akkaLogging, logback
+    akka, akkaStream, akkaHttp, akkaHttpJson, akkaLogging, logback, akkatTestKit, scalaTest
   )
 }
