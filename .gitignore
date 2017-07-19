@@ -1,6 +1,7 @@
 .idea/
 bin/
 logs/
+project/*
 !project/plugins.sbt
 !project/AppDependencies.scala
 !project/build.properties
