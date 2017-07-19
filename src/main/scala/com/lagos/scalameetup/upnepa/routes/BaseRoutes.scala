@@ -6,7 +6,7 @@ import spray.json.PrettyPrinter
 
 /**
  * Created by olushola on 7/19/17.
- * Separating routes for easy readibilty
+ * Separating routes for easy readability
  */
 trait BaseRoutes {
 
