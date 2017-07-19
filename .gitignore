@@ -1,8 +1,9 @@
 .idea/
 bin/
 logs/
-project/project
-project/target
+!project/plugins.sbt
+!project/AppDependencies.scala
+!project/build.properties
 target/
 tmp/
 test-result
