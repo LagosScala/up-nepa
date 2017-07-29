@@ -13,4 +13,11 @@ trait ApplicationConfiguration{
   val host =  config.getString("http.host")
   val port =  config.getInt("http.port")
 
+  //slack related configuration settings
+  val client_id = config.getString("slack.client-id")
+
+  val client_secret = config.getString("slack.client-secret")
+
+  val slackIncomingWebhookUrl  = config.getString("slack.incoming-webhook")
+
 }

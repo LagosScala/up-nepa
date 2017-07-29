@@ -7,10 +7,12 @@ package com.lagos.scalameetup.upnepa
 import akka.actor.ActorSystem
 import akka.event.Logging
 import akka.http.scaladsl.Http
+import akka.http.scaladsl.model.HttpRequest
 import akka.http.scaladsl.server.Directives._
 import akka.stream.ActorMaterializer
 import com.lagos.scalameetup.upnepa.config.ApplicationConfiguration
 import com.lagos.scalameetup.upnepa.routes.BaseRoutes
+import com.lagos.scalameetup.upnepa.utility.AppRequestHandler
 object WebServer extends App with BaseRoutes with ApplicationConfiguration{
   /**
     * Set up needed to provide resources (actor system, actor materializer, and execution context for futures)
