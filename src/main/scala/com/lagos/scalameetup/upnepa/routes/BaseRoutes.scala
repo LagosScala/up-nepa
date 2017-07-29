@@ -11,7 +11,7 @@ import spray.json.PrettyPrinter
 trait BaseRoutes {
 
   case class Message(text: String){
-    require(text.matches("[a-zA-Z ]{1,})(\\\\d+)([a-zA-Z ]{1,}"),"Invalid message")
+    require(!text.matches("[a-zA-Z ]{1,})(\\\\d+)([a-zA-Z ]{1,}"),"Invalid message")
   }
 
   /**
