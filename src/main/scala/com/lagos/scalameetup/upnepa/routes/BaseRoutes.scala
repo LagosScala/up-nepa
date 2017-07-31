@@ -10,7 +10,9 @@ import spray.json.PrettyPrinter
  */
 trait BaseRoutes {
 
-  case class Message(text: String)
+  case class Message(text: String){
+    require(!text.matches("[a-zA-Z ]{1,})(\\\\d+)([a-zA-Z ]{1,}"),"Invalid message")
+  }
 
   /**
    * For marshalling and unmarshalling json to and from scala objects (Message objects)
