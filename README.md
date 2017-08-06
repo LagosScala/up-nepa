@@ -52,9 +52,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Akinmolayan Olushola** - [osleonard](https://github.com/osleonard)
+* **Babatunde Ekemode** - [babatunde-abdulquddus](https://github.com/babatunde-abdulquddus)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+See also the list of [contributors](https://github.com/LagosScala/up-nepa/contributors) who participated in this project.
 
 ## License
 
