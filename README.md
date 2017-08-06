@@ -38,7 +38,7 @@ Add additional notes about how to deploy this on a live system
 
 Please read [CONTRIBUTING.md](contributing.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Authors
+## Contributors
 
 * **Akinmolayan Olushola** - [osleonard](https://github.com/osleonard)
 * **Babatunde Ekemode** - [babatunde-abdulquddus](https://github.com/babatunde-abdulquddus)
