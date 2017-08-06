@@ -1,9 +1,18 @@
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
+email, or any other method with the maintainers of this repository before making a change. 
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
+
+
+## Issues & Pull Requests
+
+Issues on the up-nepa GitHub project are intended to
+describe actionable, already-discussed items. Committers on the project may open issues for
+themselves at any time, but non-committers should start a discussion with a project maintainer
+for any issue that they wish to open.
+
 
 ## Pull Request Process
 
@@ -63,7 +72,7 @@ further defined and clarified by project maintainers.
 ### Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at [INSERT EMAIL ADDRESS]. All
+reported by contacting the project team at [lagos.scala@gmail.com]. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.
