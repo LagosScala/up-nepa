@@ -44,7 +44,7 @@ Please read [CONTRIBUTING.md](contributing.md) for details on our code of conduc
 * **Babatunde Ekemode** - [babatunde-abdulquddus](https://github.com/babatunde-abdulquddus)
 
 
-See also the list of [contributors](https://github.com/LagosScala/up-nepa/contributors) who participated in this project.
+See also the complete list of [contributors](https://github.com/LagosScala/up-nepa/contributors) who participated in this project.
 
 ## License
 
