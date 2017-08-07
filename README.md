@@ -15,9 +15,15 @@ TODO
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-TODO
+```
+git clone https://github.com/LagosScala/up-nepa.git
+```
+```
+cd up-nepa
+```
+```
+sbt run
+```
 
 ## Running the tests
 
