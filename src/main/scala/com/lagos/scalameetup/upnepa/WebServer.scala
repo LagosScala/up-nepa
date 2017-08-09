@@ -7,12 +7,15 @@ package com.lagos.scalameetup.upnepa
 import akka.actor.{ActorSystem, Props}
 import akka.event.Logging
 import akka.http.scaladsl.Http
+import akka.http.scaladsl.model.HttpRequest
 import akka.http.scaladsl.server.Directives._
 import akka.stream.ActorMaterializer
 import com.lagos.scalameetup.upnepa.config.ApplicationConfiguration
 import com.lagos.scalameetup.upnepa.routes.BaseRoutes
+
 import com.lagos.scalameetup.upnepa.services.{GPSLocationRoute, GPSLocationService}
 import akka.http.scaladsl.server._
+import com.lagos.scalameetup.upnepa.utility.AppRequestHandler
 
 
 object WebServer extends App with BaseRoutes with ApplicationConfiguration{
