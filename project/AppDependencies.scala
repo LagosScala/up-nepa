@@ -11,8 +11,9 @@ object AppDependencies {
   private val logback = "ch.qos.logback" % "logback-classic" % "1.2.3"
   private val akkatTestKit = "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion % Test
   private val scalaTest = "org.scalatest" %% "scalatest" % "3.0.1" % Test
+  private val sttp = "com.softwaremill.sttp" %% "core" % "0.0.5"
 
   val upnepaDependencies: Seq[ModuleID] =  Seq(
-    akka, akkaStream, akkaHttp, akkaHttpJson, akkaLogging, logback, akkatTestKit, scalaTest
+    akka, akkaStream, akkaHttp, akkaHttpJson, akkaLogging, logback, akkatTestKit, scalaTest, sttp
   )
 }
