@@ -1,5 +1,6 @@
 package com.lagos.scalameetup.upnepa.routes
 
+import akka.actor.Status
 import akka.http.scaladsl.server.Directives._
 import spray.json.DefaultJsonProtocol._
 import spray.json.PrettyPrinter
@@ -20,6 +21,7 @@ trait BaseRoutes {
   implicit val printer = PrettyPrinter
   implicit val messageFormat = jsonFormat1(Message)
 
+  // val gPSLocationFinderActor =
   /**
    * http endpoints routes
    */
