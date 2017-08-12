@@ -21,29 +21,10 @@ import scala.collection.immutable
 case class GeoLocation( lat: Double , lng: Double )
 case class Location(name: String)
 
-/*class GPSLocationFinderActor(implicit  val system: ActorSystem , implicit  val mat : ActorMaterializer) extends Actor with ActorLogging {
-
-  val http = Http(context.system)
-  implicit val dispatcher = system.dispatcher
-
-  override def receive: Receive = {
-    case location @ Location(name) =>
 
 
-           http.singleRequest(HttpRequest(uri ="https://maps.googleapis.com/maps/api/geocode/json?address=court+road+kano"))
-             .map(_.entity.dataBytes.runFold(ByteString(""))(_ ++ _ ).foreach{ body =>
-                 // log.info(body.utf8String)
-                 val responseAst = body.utf8String.parseJson
-                 val responseObject = responseAst.asJsObject.getFields("results")(0).asInstanceOf[JsArray]
-                  println(responseObject)
-             })
-  }
-
-   def responseMarshaller()= ???
-}*/
-
-
-class GPSLocationService(implicit  val system: ActorSystem , implicit  val mat : ActorMaterializer, implicit val ex: ExecutionContext) {
+//class GPSLocationService(implicit  val system: ActorSystem , implicit  val mat : ActorMaterializer, implicit val ex: ExecutionContext) {
+class GPSLocationService() {
 
   implicit val json4Geolocation = jsonFormat2(GeoLocation)
 
